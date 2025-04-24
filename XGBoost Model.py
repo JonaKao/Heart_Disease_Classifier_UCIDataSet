@@ -6,7 +6,6 @@ from sklearn.model_selection import train_test_split #this allows me to split da
 from sklearn.metrics import accuracy_score, classification_report #this allows me to evaluate the model after training it
 from xgboost import XGBClassifier
 from ucimlrepo import fetch_ucirepo 
-from scipy.stats import uniform, randint
 
 XGBClassifier(
     n_estimators=100,
